@@ -1,0 +1,4 @@
+This is a test in Vim
+Seems quite fun once you get your head around it
+good luck pal 
+
