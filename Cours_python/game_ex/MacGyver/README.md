@@ -1,21 +1,14 @@
+Feuille de route trouvé sur un repo Github
+
 Versions
-
 0.0: Void
-
 C'est le néant. Il n'y a rien à part quelques idées.
-
 0.1: Création du dépot sur github
-
 0.2: Rédaction du fichier README.md
-
 0.5: Expérimentations avec Pygame
-
 1.0: Synthèse des méthodes utiles de Pygame
-
 1.1: Première brique
-
 Affichage d'une image de briques.
-
 1.2: Mur de briques
 Affichage des briques ou espaces en parcourant une liste à 2 dimensions 15*15, appelé map.
 1.3: Personnages
