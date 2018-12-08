@@ -1,48 +1,21 @@
-Contraintes
-
-Versionner le code avec git et le publier sur Github
-Suivre les recommandations de la PEP 8 et développerer dans un environnement virtuel utilisant Python 3
-Code écrit en anglais (nom des variables, commentaires, fonctions, etc)
-Anticipation des diverses difficultés que je pourrais rencontrer
-je ne connais pas encore Pygame (affichage + gestion des évenements clavier)
-je dois apprendre a charger et lire les fichiers écrits dans mon propre format
-anglais !!
-quelques problèmes mineurs:
-placer aléatoirement les objets sur la carte (uniquement sur des cases vides)
-inventaire des objets (liste des objets avec 'true' si on les possède ou simple compteur d'objets ?)
-game design: choix des graphismes, boutons/options dans le jeu ?
-Problèmes imprévus
-installer pygame en python3 (https://askubuntu.com/questions/401342/how-to-download-pygame-in-python3-3)
-trouver des images/sprites libres de droit (les images proposés par le cours sont pas très jolis)
-Choix techniques:
-Il est important de bien choisir les bibliothéques a utiliser et faire des prévisions du projet à long terme pour éviter la technical debt.
-Bibliothéque graphique
-Le programme se base sur le module Pygame. Même si Tkinter est plus simple, Pygame est plus adapté aux jeux 2D.
-Source principale du choix: https://openclassrooms.com/forum/sujet/choisir-entre-pygame-et-tkinter
-Format des fichiers
-Le fichier du labyrinthe est une version simplifié du format .xsb
-Modules
-Le programme est découpé en plusieurs modules avec un objectif bien défini. Afin de respecter l'indépendance des modules, les diverses méthodes qu'ils contiennent ne s'appellent pas directement entre eux. L'appel entre les modules est effectué dans la fonction main.
-main: le fichier qui contient la fonction main
-load: chargement de la map (a partir du fichier .xsb) et des images du jeu
-display: gestion de l'affichage (module Pygame)
-game: gestion du jeu (calcul des collisions (murs), objet personnage, méthodes de récupération des objets, calcul de victoire)
-constants: constantes du programme
-Versionnage du projet
-Notation des versions
-x.y.z
-x: version majeure (nouvelle branche)
-y: version mineure (nouvelle fonctionnalité)
-z: correction des bugs
 Versions
+
 0.0: Void
+
 C'est le néant. Il n'y a rien à part quelques idées.
+
 0.1: Création du dépot sur github
+
 0.2: Rédaction du fichier README.md
+
 0.5: Expérimentations avec Pygame
+
 1.0: Synthèse des méthodes utiles de Pygame
+
 1.1: Première brique
+
 Affichage d'une image de briques.
+
 1.2: Mur de briques
 Affichage des briques ou espaces en parcourant une liste à 2 dimensions 15*15, appelé map.
 1.3: Personnages
